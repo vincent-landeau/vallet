@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --violet:#7D6BF2;
+  --blue:#578BF2;
+  --orange:#F2A649;
+  --red:#F2845C;
+  --black:#333333;
+}
+
+@font-face {
+  font-family: "Nagoda";
+  src: url("/assets/fonts/Nagoda DCU/Nagoda.ttf");
+}
+
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+/* BUTTON */
+.btn {
+  padding: .8em 1.3em;
+  border-radius: 1.5em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn.blue {
+  color: white;
+  background-color: var(--blue);
+}
+
+.btn.outline-white {
+  color: white;
+  border: 1px solid white;
+}
+
+.btn.outline-blue {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+/* TEXT */
+h1 {
+  font-size: 48px;
+  font-family: 'Nagoda', sans-serif;
+  font-weight: normal;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+}

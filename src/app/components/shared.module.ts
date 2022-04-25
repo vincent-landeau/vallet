@@ -3,17 +3,20 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {ReactiveFormsModule} from "@angular/forms";
 import {HeroComponent} from "./hero/hero.component";
+import { PresentationComponent } from './presentation/presentation.component';
 
 @NgModule({
   declarations: [
-    HeroComponent
+    HeroComponent,
+    PresentationComponent
   ],
   imports: [
     CommonModule,
     ReactiveFormsModule,
   ],
   exports: [
-    HeroComponent
+    HeroComponent,
+    PresentationComponent
   ]
 })
 export class SharedModule {

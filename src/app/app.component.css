@@ -1,0 +1,36 @@
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.logo {
+  height: 56px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu .btn {
+  margin: 0 1em;
+}
+
+.menu nav a {
+  margin: 0 .5em;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
